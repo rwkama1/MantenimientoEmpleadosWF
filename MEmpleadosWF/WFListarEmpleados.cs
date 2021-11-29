@@ -11,14 +11,21 @@ namespace MEmpleadosWF
         public WFListarEmpleados()
         {
             InitializeComponent();
+           
+        }
+        private void WFListarEmpleados_Load(object sender, EventArgs e)
+        {
             listarEmpleados();
         }
+
 
         private void listarEmpleados()
         {
             try
             {
                 List<Empleado> listaremp = LogicaEmpleado.GetInstancia().listarEmpleadosSinBaja().ToList();
+
+                
                 dgvListarEmpleados.AutoGenerateColumns = false;
                 dgvListarEmpleados.DataSource = listaremp;
             }
@@ -29,5 +36,6 @@ namespace MEmpleadosWF
           
            
         }
+      
     }
 }

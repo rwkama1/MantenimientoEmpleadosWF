@@ -1,0 +1,15 @@
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\bin\Debug\MEmpleadosWF.exe.config
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\bin\Debug\MEmpleadosWF.exe
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\bin\Debug\MEmpleadosWF.pdb
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\bin\Debug\MySql.Data.dll
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\bin\Debug\Google.Protobuf.dll
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\bin\Debug\MySql.Data.xml
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.Properties.Resources.resources
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.WFABMEmpleados.resources
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.WFListarEmpleados.resources
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.csproj.GenerateResource.cache
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.csproj.CoreCompileInputs.cache
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.csproj.CopyComplete
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.exe
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.pdb
+C:\Users\Waldemar\Desktop\Cosas Programacion\windowsform\MEmpleadosWF\MEmpleadosWF\obj\Debug\MEmpleadosWF.csprojAssemblyReference.cache

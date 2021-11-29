@@ -26,22 +26,6 @@ namespace MEmpleadosWF.modelo
             return listEmpleados;
 
         }
-        internal Empleado buscarEmpleado(short codigo)
-        {
-            Empleado empleado = null;
-            List<Empleado> listEmpleados = DataEmpleado.GetInstancia().listarEmpleados();
-            foreach (Empleado em in listEmpleados)
-            {
-                if (em.Codigo == codigo)
-                {
-                    empleado = em;
-                }
-            }
-            return empleado;
-        }
-
-        //********************************************************
-
         internal List<Empleado> listarEmpleadosSinBaja()
         {
             List<Empleado> empleados_sin_baja = new List<Empleado>();
@@ -55,6 +39,34 @@ namespace MEmpleadosWF.modelo
             }
             return empleados_sin_baja;
         }
+        internal Empleado buscarEmpleado(short codigo)
+        {
+            Empleado empleado = null;
+            List<Empleado> listEmpleados = DataEmpleado.GetInstancia().listarEmpleados();
+            foreach (Empleado em in listEmpleados)
+            {
+                if (em.Codigo == codigo)
+                {
+                    empleado = em;
+                }
+            }
+            return empleado;
+        }
+        internal Empleado buscarEmpleadosinBaja(short codigo)
+        {
+            Empleado empleado = null;
+            List<Empleado> listEmpleados = DataEmpleado.GetInstancia().listarEmpleados();
+            foreach (Empleado em in listEmpleados)
+            {
+                if (em.Codigo == codigo&&em.Bajalogica==false)
+                {
+                    empleado = em;
+                }
+            }
+            return empleado;
+        }
+
+
 
         //**********************************************
 

@@ -55,9 +55,9 @@ namespace MEmpleadosWF
             get { return fecha_ingreso; }
             set
             {
-                if (value.Year < Fecha_nacimiento.Year)
+                if (value.Year <= Fecha_nacimiento.Year)
                 {
-                    throw new ExcepcionLogica("La fecha de nacimiento no puede ser mayor a la fecha de ingreso");
+                    throw new ExcepcionLogica("La fecha de nacimiento no puede ser mayor o igual a la fecha de ingreso");
                 }
 
                 fecha_ingreso = value;
@@ -68,9 +68,9 @@ namespace MEmpleadosWF
             get { return salarioxhora; }
             set
             {
-                if (value > 9999 || value<1000)
+                if (value > 9999 || value<=0)
                 {
-                    throw new ExcepcionLogica("El salario por hora del empleado debe tener 4 enteros y 2 decimales");
+                    throw new ExcepcionLogica("El salario por hora del empleado debe ser mayor a 0 y menor a 9999");
                 }
                 salarioxhora = value;
             }
@@ -101,6 +101,10 @@ namespace MEmpleadosWF
                 DateTime fecha_actual = DateTime.Now;
                 int cuarto_año = Fecha_ingreso.Year + 4;
                 int adicional = fecha_actual.Year - cuarto_año;
+                if(adicional<0)
+                {
+                    adicional = 0;
+                }
                 return "$ "+adicional;
             }
         }

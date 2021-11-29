@@ -19,7 +19,7 @@ namespace MEmpleadosWF
                 _instancia = new DataEmpleado();
             return _instancia;
         }
-        internal  List<Empleado> listarEmpleados()
+       internal  List<Empleado> listarEmpleados()
         {
             string consulta = "select* from Empleado;";
             MySqlConnection cnn = Conexion.conexion();
